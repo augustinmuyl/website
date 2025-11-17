@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h3 {
@@ -50,4 +50,17 @@ hr {
   width: 100%;
   margin: 0;
   margin-bottom: 20px;
+}
+
+.content-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  gap: 20px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
 }
