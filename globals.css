@@ -127,12 +127,11 @@ img {
 }
 
 .back-arrow {
-  text-decoration: none;
-  font-size: 24px;
+  color: black;
 }
 
 .back-arrow:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 @media (min-width: 720px) {
