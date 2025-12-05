@@ -69,6 +69,22 @@ a:hover {
   transition: opacity 0.2s;
 }
 
+a.block-link {
+  display: block;
+  padding: 4px 6px;
+  border-radius: 8px;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(55, 53, 47, 0.16);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  color: inherit;
+}
+
+a.block-link:hover {
+  background: rgba(55, 53, 47, 0.08);
+  transition: 0.3s ease;
+}
+
 .links {
   margin-top: -12px;
   flex-direction: row;
