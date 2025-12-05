@@ -65,7 +65,8 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
 }
 
 .links {
@@ -120,7 +121,6 @@ img {
   main {
     padding: 48px 30px 80px;
   }
-
   .content-grid {
     grid-template-columns: 2fr 1fr;
   }
