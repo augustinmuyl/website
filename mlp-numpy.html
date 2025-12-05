@@ -1,0 +1,99 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLP (NumPy)</title>
+  <link rel="stylesheet" href="globals.css" />
+</head>
+<main>
+  <div class="header">
+    <a href="index.html" class="back-arrow">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-arrow-left-icon lucide-arrow-left"
+      >
+        <path d="m12 19-7-7 7-7" />
+        <path d="M19 12H5" />
+      </svg>
+    </a>
+    <h1>MLP from Scratch (NumPy)</h1>
+  </div>
+  <div>
+    <p>
+      This project is an implementation of a Multilayer Perceptron (MLP), a type
+      of feedforward neural network, from scratch only using NumPy.
+    </p>
+    <p>
+      An MLP consists of layers of interconnected nodes (neurons), where each
+      layer performs a linear transformation, followed by a non-linear
+      activation function.
+    </p>
+    <p>
+      The goal of this project was to build and train MLPs without using any
+      deep learning libraries (TensorFlow, PyTorch), to understand the internals
+      of neural networks.
+    </p>
+  </div>
+
+  <div>
+    <h2>The MLP (from scratch)</h2>
+    <ul>
+      <li>
+        Hand-built layers, activations, and backpropagation; no deep learning
+        frameworks
+      </li>
+      <li>
+        Uses only NumPy so the math (sigmoid, cross-entropy) maps directly to
+        code
+      </li>
+      <li>
+        Optimized enough to train on classic datasets like MNIST and
+        Fashion-MNIST
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>The CLI (on top)</h2>
+    <ul>
+      <li>Interactive walkthrough to configure and launch training runs</li>
+      <li>
+        Plots loss curves and decision boundaries so you can watch the model
+        improve
+      </li>
+      <li>
+        Saves each run so you can inspect predictions and tweak settings later
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Results</h2>
+    <ul>
+      <li>98.01% accuracy on MNIST digits</li>
+      <li>88.80% accuracy on Fashion-MNIST clothing items</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Links</h2>
+    <ul>
+      <li>
+        <a
+          href="https://www.github.com/augustinmuyl/mlp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code ↗
+        </a>
+      </li>
+    </ul>
+  </div>
+</main>
